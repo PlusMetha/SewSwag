@@ -29,7 +29,7 @@
 
 <body>
     <!-- ? Preloader Start -->
-    <div id="preloader-active">
+    <!-- <div id="preloader-active">
         <div class="preloader d-flex align-items-center justify-content-center">
             <div class="preloader-inner position-relative">
                 <div class="preloader-circle"></div>
@@ -38,8 +38,20 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
     <!-- Preloader Start -->
+ 
+<script>
+            $( document ).ready(function() {
+         $('#headerVideoLink').magnificPopup({
+          type:'inline',
+          midClick: true // Allow opening popup on middle mouse click. Always set it to true if you don't provide alternative source in href.
+        });
+          
+        });
+   
+</script>
+
     <header>
         <!-- Header Start -->
         <div class="header-area header-transparent">
@@ -50,7 +62,7 @@
                             <!-- Logo -->
                             <div class="col-xl-2 col-lg-2">
                                 <div class="logo">
-                                    <a href="index.html"><img src="assets/img/logo/logo.png" alt=""></a>
+                                    <a href="index.html"><img src="assets/img/logo/logo.png"   alt=""></a>
                                 </div>
                             </div>
                             <div class="col-xl-10 col-lg-10">
@@ -61,22 +73,23 @@
                                             <ul id="navigation">                                                                                          
                                                 <li class="active" ><a href="index.html">Home</a></li>
                                                 <li><a href="courses.html">Product</a></li>
-                                                <li><a href=" ">How to start</a></li>
-                                                <li><a href=" ">For manufacturers </a></li>
-                                                <li><a href=" ">Sustainbility </a></li>
-                                                <li><a href="#">Learn</a>
+                                                <li><a href="start.html">How to start</a></li>
+                                                <li><a href="manufac.html">For manufacturers </a></li>
+                                                <li><a href="sustain.html">Sustainbility </a></li>
+                                                <li><a href="#">Learn ˅</a>
                                                     <ul class="submenu">
                                                         <li><a href="about.html">About</a></li>
                                                         <li><a href="blog.html">Blog</a></li>
                                                         <li><a href="blog.html">Directory</a></li>
-                                                        <li><a href="blog_details.html">Blog Details</a></li>
-                                                        <li><a href="elements.html">Element</a></li>
+                                                        <li><a href="contact.html">Contact</a></li>
+                                                        <!-- <li><a href="blog_details.html">Blog Details</a></li>
+                                                        <li><a href="elements.html">Element</a></li> -->
                                                     </ul>
                                                 </li>
-                                                <li><a href="contact.html">Contact</a></li>
+
                                                 <!-- Button -->
-                                                <li class="button-header margin-left "><a href="#" class="btn">Join</a></li>
-                                                <li class="button-header"><a href="login.html" class="btn btn3">Log in</a></li>
+                                                <!-- <li class="button-header margin-left "><a href="#" class="btn">Join</a></li>
+                                                <li class="button-header"><a href="login.html" class="btn btn3">Log in</a></li> -->
                                             </ul>
                                         </nav>
                                     </div>
@@ -103,9 +116,9 @@
                         <div class="row">
                             <div class="col-xl-6 col-lg-7 col-md-12">
                                 <div class="hero__caption">
-                                    <h1 data-animation="fadeInLeft" data-delay="0.2s">Online learning<br> platform</h1>
-                                    <p data-animation="fadeInLeft" data-delay="0.4s">Build skills with courses, certificates, and degrees online from world-class universities and companies</p>
-                                    <a href="#" class="btn hero-btn" data-animation="fadeInLeft" data-delay="0.7s">Join for Free</a>
+                                    <h1 style="font-size: 250%;" data-animation="fadeInLeft" data-delay="0.2s">Starting a clothing brand or launching a product?</h1>
+                                    <p data-animation="fadeInLeft" data-delay="0.4s"> Value Value Value Value Value Value Value Value Value Value Value Value Value Value Value Value Value Value Value Value Value Value Value Value Value Value Value Value Value Value Value Value Value Value </p>
+                                    <a href="#" class="btn hero-btn" data-animation="fadeInLeft" data-delay="0.7s"><i class="ti-home"></i>  Watch VDO</a>
                                 </div>
                             </div>
                         </div>
@@ -123,8 +136,8 @@
                                 <img src="assets/img/icon/icon1.svg" alt="">
                             </div>
                             <div class="features-caption">
-                                <h3>60+ UX courses</h3>
-                                <p>The automated process all your website tasks.</p>
+                                <h3>Matching manufacturers</h3>
+                                <p>Help matching online with specialize manufacturers.</p>
                             </div>
                         </div>
                     </div>
@@ -134,8 +147,8 @@
                                 <img src="assets/img/icon/icon2.svg" alt="">
                             </div>
                             <div class="features-caption">
-                                <h3>Expert instructors</h3>
-                                <p>The automated process all your website tasks.</p>
+                                <h3>Manage production</h3>
+                                <p>Manage production through our simply dashboard.</p>
                             </div>
                         </div>
                     </div>
@@ -145,8 +158,8 @@
                                 <img src="assets/img/icon/icon3.svg" alt="">
                             </div>
                             <div class="features-caption">
-                                <h3>Life time access</h3>
-                                <p>The automated process all your website tasks.</p>
+                                <h3>Standard price</h3>
+                                <p>Get quote with standard price.</p>
                             </div>
                         </div>
                     </div>
@@ -159,7 +172,7 @@
                 <div class="row justify-content-center">
                     <div class="col-xl-7 col-lg-8">
                         <div class="section-tittle text-center mb-55">
-                            <h2>Our featured courses</h2>
+                            <h2>Choose your product</h2>
                         </div>
                     </div>
                 </div>
@@ -171,27 +184,16 @@
                                 <a href="#"><img src="assets/img/gallery/featured1.png" alt=""></a>
                             </div>
                             <div class="properties__caption">
-                                <p>User Experience</p>
-                                <h3><a href="#">Fundamental of UX for Application design</a></h3>
-                                <p>The automated process all your website tasks. Discover tools and techniques to engage effectively with vulnerable children and young people.
-
+                                <h3><a href="#">T-Shirt</a></h3>
+                                <p> T-Shirt T-Shirt T-Shirt T-Shirt T-Shirt
                                 </p>
                                 <div class="properties__footer d-flex justify-content-between align-items-center">
-                                    <div class="restaurant-name">
-                                        <div class="rating">
-                                            <i class="fas fa-star"></i>
-                                            <i class="fas fa-star"></i>
-                                            <i class="fas fa-star"></i>
-                                            <i class="fas fa-star"></i>
-                                            <i class="fas fa-star-half"></i>
-                                        </div>
-                                        <p><span>(4.5)</span> based on 120</p>
-                                    </div>
+
                                     <div class="price">
-                                        <span>$135</span>
+                                        <span>Start 90 ฿</span>
                                     </div>
                                 </div>
-                                <a href="#" class="border-btn border-btn2">Find out more</a>
+                                <a href="#" class="border-btn border-btn2">Order</a>
                             </div>
 
                         </div>
@@ -204,26 +206,16 @@
                                 <a href="#"><img src="assets/img/gallery/featured2.png" alt=""></a>
                             </div>
                             <div class="properties__caption">
-                                <p>User Experience</p>
-                                <h3><a href="#">Fundamental of UX for Application design</a></h3>
-                                <p>The automated process all your website tasks. Discover tools and techniques to engage effectively with vulnerable children and young people.
+                                <h3><a href="#">T-Shirt</a></h3>
+                                <p> T-Shirt T-Shirt T-Shirt T-Shirt T-Shirt
                                 </p>
                                 <div class="properties__footer d-flex justify-content-between align-items-center">
-                                    <div class="restaurant-name">
-                                        <div class="rating">
-                                            <i class="fas fa-star"></i>
-                                            <i class="fas fa-star"></i>
-                                            <i class="fas fa-star"></i>
-                                            <i class="fas fa-star"></i>
-                                            <i class="fas fa-star-half"></i>
-                                        </div>
-                                        <p><span>(4.5)</span> based on 120</p>
-                                    </div>
+
                                     <div class="price">
-                                        <span>$135</span>
+                                        <span>Start 90 ฿</span>
                                     </div>
                                 </div>
-                                <a href="#" class="border-btn border-btn2">Find out more</a>
+                                <a href="#" class="border-btn border-btn2">Order</a>
                             </div>
                         </div>
                     </div>
@@ -235,27 +227,16 @@
                                 <a href="#"><img src="assets/img/gallery/featured3.png" alt=""></a>
                             </div>
                             <div class="properties__caption">
-                                <p>User Experience</p>
-                                <h3><a href="#">Fundamental of UX for Application design</a></h3>
-                                <p>The automated process all your website tasks. Discover tools and techniques to engage effectively with vulnerable children and young people.
-
+                                <h3><a href="#">T-Shirt</a></h3>
+                                <p> T-Shirt T-Shirt T-Shirt T-Shirt T-Shirt
                                 </p>
                                 <div class="properties__footer d-flex justify-content-between align-items-center">
-                                    <div class="restaurant-name">
-                                        <div class="rating">
-                                            <i class="fas fa-star"></i>
-                                            <i class="fas fa-star"></i>
-                                            <i class="fas fa-star"></i>
-                                            <i class="fas fa-star"></i>
-                                            <i class="fas fa-star-half"></i>
-                                        </div>
-                                        <p><span>(4.5)</span> based on 120</p>
-                                    </div>
+
                                     <div class="price">
-                                        <span>$135</span>
+                                        <span>Start 90 ฿</span>
                                     </div>
                                 </div>
-                                <a href="#" class="border-btn border-btn2">Find out more</a>
+                                <a href="#" class="border-btn border-btn2">Order</a>
                             </div>
 
                         </div>
@@ -268,44 +249,84 @@
                                 <a href="#"><img src="assets/img/gallery/featured2.png" alt=""></a>
                             </div>
                             <div class="properties__caption">
-                                <p>User Experience</p>
-                                <h3><a href="#">Fundamental of UX for Application design</a></h3>
-                                <p>The automated process all your website tasks. Discover tools and techniques to engage effectively with vulnerable children and young people.
-
+                                <h3><a href="#">T-Shirt</a></h3>
+                                <p> T-Shirt T-Shirt T-Shirt T-Shirt T-Shirt
                                 </p>
                                 <div class="properties__footer d-flex justify-content-between align-items-center">
-                                    <div class="restaurant-name">
-                                        <div class="rating">
-                                            <i class="fas fa-star"></i>
-                                            <i class="fas fa-star"></i>
-                                            <i class="fas fa-star"></i>
-                                            <i class="fas fa-star"></i>
-                                            <i class="fas fa-star-half"></i>
-                                        </div>
-                                        <p><span>(4.5)</span> based on 120</p>
-                                    </div>
+
                                     <div class="price">
-                                        <span>$135</span>
+                                        <span>Start 90 ฿</span>
                                     </div>
                                 </div>
-                                <a href="#" class="border-btn border-btn2">Find out more</a>
+                                <a href="#" class="border-btn border-btn2">Order</a>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <!-- Single -->
+                    
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-xl-7 col-lg-8">
+                        <div class="section-tittle text-center mt-40">
+                            <a href="courses.html" class="border-btn">More Product</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <!-- Courses area End -->
+
+
+
+        <div class="courses-area section-padding40 fix">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-xl-7 col-lg-8">
+                        <div class="section-tittle text-center mb-55">
+                            <h2>For fashion product</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="courses-actives">
+                    <!-- Single -->
+                    <div class="properties pb-20">
+                        <div class="properties__card">
+                            <div class="properties__img overlay1">
+                                <a href="#"><img src="assets/img/gallery/featured1.png" alt=""></a>
+                            </div>
+                            <div class="properties__caption">
+                                <h3><a href="#">Fashion product</a></h3>
+                                <p> T-Shirt T-Shirt T-Shirt T-Shirt T-Shirt
+                                </p>
+                                <div class="properties__footer d-flex justify-content-between align-items-center">
+
+                                    <div class="price">
+                                        <span>คุยกับเราเพื่อรายระเอียด</span>
+                                    </div>
+                                </div>
+                                <a href="#" class="border-btn border-btn2"> Detail </a>
                             </div>
 
                         </div>
                     </div>
                     <!-- Single -->
+
+
                 </div>
             </div>
         </div>
-        <!-- Courses area End -->
+
+
         <!--? About Area-1 Start -->
-        <section class="about-area1 fix pt-10">
+        <!-- <section class="about-area1 fix pt-10">
             <div class="support-wrapper align-items-center">
                 <div class="left-content1">
                     <div class="about-icon">
                         <img src="assets/img/icon/about.svg" alt="">
                     </div>
-                    <!-- section tittle -->
+ 
                     <div class="section-tittle section-tittle2 mb-55">
                         <div class="front-text">
                             <h2 class="">Learn new skills online with top educators</h2>
@@ -341,147 +362,35 @@
                     </div>
                 </div>
                 <div class="right-content1">
-                    <!-- img -->
+ 
                     <div class="right-img">
                         <img src="assets/img/gallery/about.png" alt="">
 
                         <div class="video-icon" >
-                            <a class="popup-video btn-icon" href="https://www.youtube.com/watch?v=up68UAfH0d0"><i class="fas fa-play"></i></a>
+                            <a class="popup-video btn-icon" href="https://www.youtube.com/watch?v=mGhfaQIRRgw&ab_channel=PatcharaMethajittiphan"><i class="fas fa-play"></i></a>
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
         <!-- About Area End -->
-        <!--? top subjects Area Start -->
-        <div class="topic-area section-padding40">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-xl-7 col-lg-8">
-                        <div class="section-tittle text-center mb-55">
-                            <h2>Explore top subjects</h2>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-3 col-md-4 col-sm-6">
-                        <div class="single-topic text-center mb-30">
-                            <div class="topic-img">
-                                <img src="assets/img/gallery/topic1.png" alt="">
-                                <div class="topic-content-box">
-                                    <div class="topic-content">
-                                        <h3><a href="#">Programing</a></h3>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-4 col-sm-6">
-                        <div class="single-topic text-center mb-30">
-                            <div class="topic-img">
-                                <img src="assets/img/gallery/topic2.png" alt="">
-                                <div class="topic-content-box">
-                                    <div class="topic-content">
-                                        <h3><a href="#">Programing</a></h3>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-4 col-sm-6">
-                        <div class="single-topic text-center mb-30">
-                            <div class="topic-img">
-                                <img src="assets/img/gallery/topic3.png" alt="">
-                                <div class="topic-content-box">
-                                    <div class="topic-content">
-                                        <h3><a href="#">Programing</a></h3>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-4 col-sm-6">
-                        <div class="single-topic text-center mb-30">
-                            <div class="topic-img">
-                                <img src="assets/img/gallery/topic4.png" alt="">
-                                <div class="topic-content-box">
-                                    <div class="topic-content">
-                                        <h3><a href="#">Programing</a></h3>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-4 col-sm-6">
-                        <div class="single-topic text-center mb-30">
-                            <div class="topic-img">
-                                <img src="assets/img/gallery/topic5.png" alt="">
-                                <div class="topic-content-box">
-                                    <div class="topic-content">
-                                        <h3><a href="#">Programing</a></h3>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-4 col-sm-6">
-                        <div class="single-topic text-center mb-30">
-                            <div class="topic-img">
-                                <img src="assets/img/gallery/topic6.png" alt="">
-                                <div class="topic-content-box">
-                                    <div class="topic-content">
-                                        <h3><a href="#">Programing</a></h3>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-4 col-sm-6">
-                        <div class="single-topic text-center mb-30">
-                            <div class="topic-img">
-                                <img src="assets/img/gallery/topic7.png" alt="">
-                                <div class="topic-content-box">
-                                    <div class="topic-content">
-                                        <h3><a href="#">Programing</a></h3>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-4 col-sm-6">
-                        <div class="single-topic text-center mb-30">
-                            <div class="topic-img">
-                                <img src="assets/img/gallery/topic8.png" alt="">
-                                <div class="topic-content-box">
-                                    <div class="topic-content">
-                                        <h3><a href="#">Programing</a></h3>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row justify-content-center">
-                    <div class="col-xl-12">
-                        <div class="section-tittle text-center mt-20">
-                            <a href="courses.html" class="border-btn">View More Subjects</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- top subjects End -->
+
+
+ 
+
+
+
         <!--? About Area-3 Start -->
-        <section class="about-area3 fix">
+        <!-- <section class="about-area3 fix">
             <div class="support-wrapper align-items-center">
                 <div class="right-content3">
-                    <!-- img -->
+
                     <div class="right-img">
                         <img src="assets/img/gallery/about3.png" alt="">
                     </div>
                 </div>
                 <div class="left-content3">
-                    <!-- section tittle -->
+
                     <div class="section-tittle section-tittle2 mb-20">
                         <div class="front-text">
                             <h2 class="">Learner outcomes on courses you will take</h2>
@@ -515,8 +424,10 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
         <!-- About Area End -->
+
+
         <!--? Team -->
         <section class="team-area section-padding40 fix">
             <div class="container">
@@ -577,17 +488,93 @@
             </div>
         </section>
         <!-- Services End -->
+
+       <!--? top subjects Area Start -->
+       <div class="topic-area section-padding40">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-xl-7 col-lg-8">
+                    <div class="section-tittle text-center mb-55">
+                        <h2>New to clothing production ?</h2>
+                        <h1>Explore our blog</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="single-topic text-center mb-30">
+                        <div class="topic-img">
+                            <img src="assets/img/gallery/topic1.png" alt="">
+                            <div class="topic-content-box">
+                                <div class="topic-content">
+                                    <h3><a href="#">Programing</a></h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="single-topic text-center mb-30">
+                        <div class="topic-img">
+                            <img src="assets/img/gallery/topic2.png" alt="">
+                            <div class="topic-content-box">
+                                <div class="topic-content">
+                                    <h3><a href="#">Programing</a></h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="single-topic text-center mb-30">
+                        <div class="topic-img">
+                            <img src="assets/img/gallery/topic3.png" alt="">
+                            <div class="topic-content-box">
+                                <div class="topic-content">
+                                    <h3><a href="#">Programing</a></h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="single-topic text-center mb-30">
+                        <div class="topic-img">
+                            <img src="assets/img/gallery/topic4.png" alt="">
+                            <div class="topic-content-box">
+                                <div class="topic-content">
+                                    <h3><a href="#">Programing</a></h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-xl-12">
+                    <div class="section-tittle text-center mt-20">
+                        <a href="courses.html" class="border-btn">View More Blog</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- top subjects End -->
+
         <!--? About Area-2 Start -->
-        <section class="about-area2 fix pb-padding">
+        <!-- <section class="about-area2 fix pb-padding">
             <div class="support-wrapper align-items-center">
                 <div class="right-content2">
-                    <!-- img -->
+                   
+                    
                     <div class="right-img">
                         <img src="assets/img/gallery/about2.png" alt="">
                     </div>
                 </div>
                 <div class="left-content2">
-                    <!-- section tittle -->
+
+                    
                     <div class="section-tittle section-tittle2 mb-20">
                         <div class="front-text">
                             <h2 class="">Take the next step
@@ -600,7 +587,7 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
         <!-- About Area End -->
     </main>
     <footer>
